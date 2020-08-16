@@ -147,8 +147,11 @@ installTrojan(){
     fi
     LASTEST_VERSION=$(curl -H 'Cache-Control: no-cache' -s "$VERSION_CHECK" | grep 'tag_name' | cut -d\" -f4)
     echo "正在下载管理程序`colorEcho $BLUE $LASTEST_VERSION`版本..."
-
+    echo "***************************************"
+    echo $DOWNLAOD_URL/$LASTEST_VERSION/trojan-web
+    echo "***************************************"
     curl -L "$DOWNLAOD_URL/$LASTEST_VERSION/trojan-web" -o /usr/local/bin/trojan
+
     chmod +x /usr/local/bin/trojan
     if [[ ! -e /etc/systemd/system/trojan-web.service ]];then
         SHOW_TIP=1
