@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: vpc123
-# github: https://github.com/vpc123/trojan
+# github: https://github.com/vpc123/trojan-web
 
 #定义操作变量, 0为否, 1为是
 HELP=0
@@ -9,11 +9,11 @@ REMOVE=0
 
 UPDATE=0
 
-DOWNLAOD_URL="https://github.com/vpc123/trojan/releases/download/"
+DOWNLAOD_URL="https://github.com/vpc123/trojan-web/releases/download/"
 
-VERSION_CHECK="https://api.github.com/repos/vpc123/trojan/releases/latest"
+VERSION_CHECK="https://api.github.com/repos/trojan-web/trojan/releases/latest"
 
-SERVICE_URL="https://raw.githubusercontent.com/vpc123/trojan/master/asset/trojan-web.service"
+SERVICE_URL="https://raw.githubusercontent.com/trojan-web/trojan/master/asset/trojan-web.service"
 
 [[ -e /var/lib/trojan-manager ]] && UPDATE=1
 
