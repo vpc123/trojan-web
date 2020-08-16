@@ -2,7 +2,7 @@
 
 GITHUB_TOKEN=""
 
-PROJECT="vpc123/trojan"
+PROJECT="vpc123/trojan-web"
 
 #获取当前的这个脚本所在绝对路径
 SHELL_PATH=$(cd `dirname $0`; pwd)

@@ -13,7 +13,7 @@ DOWNLAOD_URL="https://github.com/vpc123/trojan-web/releases/download/"
 
 VERSION_CHECK="https://api.github.com/repos/trojan-web/trojan/releases/latest"
 
-SERVICE_URL="https://raw.githubusercontent.com/trojan-web/trojan/master/asset/trojan-web.service"
+SERVICE_URL="https://raw.githubusercontent.com/vpc123/trojan-web/master/asset/trojan-web.service"
 
 [[ -e /var/lib/trojan-manager ]] && UPDATE=1
 
@@ -147,6 +147,9 @@ installTrojan(){
     fi
     LASTEST_VERSION=$(curl -H 'Cache-Control: no-cache' -s "$VERSION_CHECK" | grep 'tag_name' | cut -d\" -f4)
     echo "正在下载管理程序`colorEcho $BLUE $LASTEST_VERSION`版本..."
+    echo "************************************"
+    echo $DOWNLAOD_URL/$LASTEST_VERSION/trojan
+     echo "************************************"
     curl -L "$DOWNLAOD_URL/$LASTEST_VERSION/trojan" -o /usr/local/bin/trojan
     chmod +x /usr/local/bin/trojan
     if [[ ! -e /etc/systemd/system/trojan-web.service ]];then
