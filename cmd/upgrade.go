@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"trojan/core"
-	"trojan/trojan"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/trojan"
 )
 
 // upgradeCmd represents the update command

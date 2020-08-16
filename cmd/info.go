@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"trojan/trojan"
+	"github.com/vpc123/trojan-web/trojan"
 
 	"github.com/spf13/cobra"
 )

@@ -9,7 +9,7 @@ import (
 	mysqlDriver "github.com/go-sql-driver/mysql"
 	"io/ioutil"
 	"log"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/util"
 
 	// mysql sql驱动
 	_ "github.com/go-sql-driver/mysql"

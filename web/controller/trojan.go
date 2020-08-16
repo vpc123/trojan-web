@@ -6,9 +6,9 @@ import (
 	ws "github.com/gorilla/websocket"
 	"log"
 	"time"
-	"trojan/core"
-	"trojan/trojan"
-	websocket "trojan/util"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/trojan"
+	websocket "github.com/vpc123/trojan-web/util"
 )
 
 // Start 启动trojan

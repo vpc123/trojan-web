@@ -5,8 +5,8 @@ import (
 	"github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"
 	"time"
-	"trojan/core"
-	"trojan/web/controller"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/web/controller"
 )
 
 var (

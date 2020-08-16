@@ -2,7 +2,7 @@ package controller
 
 import (
 	"time"
-	"trojan/core"
+	"github.com/vpc123/trojan-web/core"
 )
 
 // SetData 设置流量限制

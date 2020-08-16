@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"trojan/web"
+	"github.com/vpc123/trojan-web/web"
 )
 
 var (

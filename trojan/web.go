@@ -3,8 +3,8 @@ package trojan
 import (
 	"crypto/sha256"
 	"fmt"
-	"trojan/core"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/util"
 )
 
 // WebMenu web管理菜单

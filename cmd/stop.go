@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"trojan/trojan"
+	"github.com/vpc123/trojan-web/trojan"
 )
 
 // stopCmd represents the stop command

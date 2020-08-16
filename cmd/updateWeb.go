@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/util"
 )
 
 // updateWebCmd represents the update command

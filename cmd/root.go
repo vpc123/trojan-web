@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 	"os"
-	"trojan/core"
-	"trojan/trojan"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/trojan"
+	"github.com/vpc123/trojan-web/util"
 )
 
 // rootCmd represents the base command when called without any subcommands

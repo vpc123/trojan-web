@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"strconv"
 	"time"
-	"trojan/core"
-	"trojan/trojan"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/trojan"
 )
 
 // UserList 获取用户列表

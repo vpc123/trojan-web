@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"trojan/core"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/util"
 )
 
 var (

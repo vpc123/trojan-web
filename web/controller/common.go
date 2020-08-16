@@ -6,8 +6,8 @@ import (
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/mem"
 	"time"
-	"trojan/core"
-	"trojan/trojan"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/trojan"
 )
 
 // ResponseBody 结构体

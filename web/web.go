@@ -7,9 +7,9 @@ import (
 	"github.com/gobuffalo/packr/v2"
 	"net/http"
 	"strconv"
-	"trojan/core"
-	"trojan/util"
-	"trojan/web/controller"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/util"
+	"github.com/vpc123/trojan-web/web/controller"
 )
 
 func userRouter(router *gin.Engine) {

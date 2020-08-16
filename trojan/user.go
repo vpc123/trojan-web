@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"fmt"
 	"strconv"
-	"trojan/core"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/util"
 )
 
 // UserMenu 用户管理菜单

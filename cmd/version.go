@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"trojan/trojan"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/trojan"
+	"github.com/vpc123/trojan-web/util"
 
 	"github.com/spf13/cobra"
 )

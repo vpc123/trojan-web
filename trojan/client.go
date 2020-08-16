@@ -3,8 +3,8 @@ package trojan
 import (
 	"encoding/base64"
 	"fmt"
-	"trojan/core"
-	"trojan/util"
+	"github.com/vpc123/trojan-web/core"
+	"github.com/vpc123/trojan-web/util"
 )
 
 var clientPath = "/root/config.json"
