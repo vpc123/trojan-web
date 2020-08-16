@@ -114,7 +114,7 @@ bbr_boost_sh(){
 
 trojan_install(){
     $systemPackage install -y curl
-                source <(curl -sL https://git.io/trojan-install)
+                source <(curl -sL https://raw.githubusercontent.com/vpc123/trojan-web/master/install.sh)
 }
 
 start_menu(){
